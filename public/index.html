@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+    <h1>FlashCards App</h1>
+    <button id = "get-card-button">Get a Card</button>
+    <div id = "card-display">Click the button...</div>
+    <button id="add-cards-screen-btn">Add Cards!</button>
+
+    <div id="add-card-modal" class="overlay hidden">
+        <div class="popup-box">
+            <h2>Card Adder</h2>
+            <input type="text" id="add-card-enter-word" placeholder="Word">
+            <input type="text" id="add-card-enter-description" placeholder="Description">
+            <button id="add-card">Add Card</button>
+        </div>
+    </div>
+
+    <script src="client.js"></script>
+</body>
+</html>
