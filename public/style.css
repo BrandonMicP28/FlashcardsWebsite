@@ -1,3 +1,11 @@
+body {
+    background-color: rgb(0, 0, 60);
+}
+
+h1, h2 {
+    color: aliceblue;
+}
+
 .overlay {
     position: fixed;
     top: 0;
@@ -16,13 +24,41 @@
 }
 
 .popup-box {
-    background-color: white;
-    padding: 30px;
+    position: relative;
+    background-color: rgb(20, 20, 20);
+    padding: 5px 30px 30px 30px;
     border-radius: 8px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .hidden {
     display: none !important;
+}
+
+.exit-icon {
+    border: none;
+    outline: none;
+
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: dimgray;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.exit-icon:hover {
+    background-color: red;
 }
