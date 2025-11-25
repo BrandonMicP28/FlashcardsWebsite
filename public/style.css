@@ -6,6 +6,22 @@ h1, h2 {
     color: aliceblue;
 }
 
+#flashcard-btn {
+    width: 50%;
+    height: 35%;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: gray;
+    color: aliceblue;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .overlay {
     position: fixed;
     top: 0;
